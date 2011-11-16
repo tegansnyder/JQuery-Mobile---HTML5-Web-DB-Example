@@ -1,3 +1,7 @@
 Offline HTML5 web database techniques using html5sql.js and JQuery Mobile
 
-I recently came across Ken Corbett's helper module developed to assist in working with HTML5 Web Databases. While the debate continues on offline storage and the HTML5 spec I decided to give this library a try. Check out my example below to help you get started.
+I recently came across Ken Corbett's helper module developed to assist in
+working with HTML5 Web Databases. While the debate continues on offline storage
+and the HTML5 spec I decided to give this library a try. 
+
+Donwload this example to get a good idea.
