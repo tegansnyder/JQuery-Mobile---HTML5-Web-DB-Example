@@ -1,0 +1,1 @@
+CREATE TABLE person (id INTEGER NOT NULL, first_name VARCHAR(35), last_name VARCHAR(35), age INTEGER, money DOUBLE, PRIMARY KEY (id));

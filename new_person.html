@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Web App - New Person</title>
+	
+	<meta charset="utf-8">
+	<meta name="HandheldFriendly" content="True"> 
+	<meta name="MobileOptimized" content="320"/> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no, maximum-scale = 1"> 
+	<meta name="apple-mobile-web-app-capable" content="yes"> 
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
+	<meta http-equiv="cleartype" content="on"> 
+	
+	<link rel="stylesheet" href="css/jqmtegan.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc3/jquery.mobile.structure-1.0rc3.min.css" /> 
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script> 
+	<script src="http://code.jquery.com/mobile/1.0rc3/jquery.mobile-1.0rc3.min.js"></script> 
+	
+	<script src="js/html5sql.js"></script>
+	<script src="js/app.js"></script>
+	
+</head> 
+<body>
+
+<div data-role="page" class="type-interior" data-theme="a" id="new_person">
+
+	<div data-role="header" data-theme="a">
+		<h1>New Person</h1>
+		<a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+	</div>
+
+	<div data-role="content">
+		
+		<form action="#" method="get">
+
+	        <label for="first_name">First Name:</label>
+	        <input type="text" name="first_name" id="first_name" value=""  />
+
+	        <label for="last_name">Last Name:</label>
+	        <input type="text" name="last_name" id="last_name" value=""  />
+
+	        <label for="age">Age:</label>
+	        <input type="text" pattern="[0-9]*" name="age" id="age" value="" />
+
+	        <label for="money">Money</label>
+	        <input type="text" pattern="[0-9]*" name="money" id="money" value="" />
+			
+			<br><br>
+			
+
+				<fieldset class="ui-grid-a">
+						<div class="ui-block-a"><button type="submit" data-theme="d">Cancel</button></div>
+						<div class="ui-block-b"><button type="submit" data-theme="a" id="save_person">Save</button></div>
+				</fieldset>
+
+		
+		</form>
+
+	</div>
+
+</div>
+
+</body>
+</html>
